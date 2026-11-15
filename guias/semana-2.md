@@ -1,6 +1,6 @@
 # Semana 2 · El MLP vectorizado y la dinámica de entrenamiento
 
-> **23 – 29 nov 2026** · ~12 h · Módulo II de la hoja de ruta (Paso 2)
+> **Días 8 – 14** · ~12 h · Módulo II de la hoja de ruta (Paso 2)
 > **Entregable:** un MLP en NumPy con backprop escrita a mano que pasa el gradient check, y el mismo modelo en PyTorch con tu propio bucle de entrenamiento.
 
 ## 1. Objetivos
@@ -16,13 +16,13 @@
 
 | Día | Tiempo | Qué hacer |
 |---|---|---|
-| **Lun** | 1,5 h | Karpathy – *makemore, parte 1* (bigramas): tensores de PyTorch, broadcasting, entropía cruzada/NLL como pérdida. Repasa [`recursos/chuleta-formulas.md`](../recursos/chuleta-formulas.md). |
-| **Mar** | 1,5 h | **A mano, en papel:** derivar $dW, db, dA$ para $Z=AW+b$ y $\partial L/\partial z$ para softmax+CE. Lee `mlp_numpy.py` (docstring + `backward`). |
-| **Mié** | 2 h | Programa tu propio `MLPNumpy` **sin mirar**, con `verificar_gradientes`. Compara con `mlp_numpy.py`. |
-| **Jue** | 1,5 h | Karpathy – *makemore, parte 2* (MLP de Bengio): embeddings, *mini-batches*, *learning rate* por búsqueda, *train/dev/test*. |
-| **Vie** | 1,5 h | `mlp_torch.py`: autograd vs tu backprop manual; optimizadores y activaciones. Lee Prince cap. 5–7 (pérdidas, ajuste, gradiente). |
-| **Sáb** | 3–4 h | **Proyecto:** clasificador de espirales en PyTorch con tu bucle, *grid* de lr × optimizador × activación, y un gráfico de curvas de pérdida train/val. |
-| **Dom** | 1 h | Autoevaluación, tarjetas de repaso (Anki o papel), plan de la Semana 3. |
+| **Día 1** | 1,5 h | Karpathy – *makemore, parte 1* (bigramas): tensores de PyTorch, broadcasting, entropía cruzada/NLL como pérdida. Repasa [`recursos/chuleta-formulas.md`](../recursos/chuleta-formulas.md). |
+| **Día 2** | 1,5 h | **A mano, en papel:** derivar $dW, db, dA$ para $Z=AW+b$ y $\partial L/\partial z$ para softmax+CE. Lee `mlp_numpy.py` (docstring + `backward`). |
+| **Día 3** | 2 h | Programa tu propio `MLPNumpy` **sin mirar**, con `verificar_gradientes`. Compara con `mlp_numpy.py`. |
+| **Día 4** | 1,5 h | Karpathy – *makemore, parte 2* (MLP de Bengio): embeddings, *mini-batches*, *learning rate* por búsqueda, *train/dev/test*. |
+| **Día 5** | 1,5 h | `mlp_torch.py`: autograd vs tu backprop manual; optimizadores y activaciones. Lee Prince cap. 5–7 (pérdidas, ajuste, gradiente). |
+| **Día 6** | 3–4 h | **Proyecto:** clasificador de espirales en PyTorch con tu bucle, *grid* de lr × optimizador × activación, y un gráfico de curvas de pérdida train/val. |
+| **Día 7** | 1 h | Autoevaluación, tarjetas de repaso (Anki o papel), plan de la Semana 3. |
 
 ## 3. Teoría esencial
 

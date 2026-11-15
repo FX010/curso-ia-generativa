@@ -1,6 +1,8 @@
-# Plan maestro · 8 semanas (16 nov 2026 – 10 ene 2027)
+# Plan maestro · 8 semanas (56 días)
 
-Este documento es tu **mapa y tu método**. Léelo completo antes de la Semana 1 (≈ 20 min) y vuelve a él cada domingo.
+Este documento es tu **mapa y tu método**. Léelo completo antes de la Semana 1 (≈ 20 min) y vuelve a él al final de cada semana (Día 7).
+
+> **Cómo se cuentan los días:** el **Día 1** es tu primer día de estudio. No hace falta empezar en una fecha concreta ni en lunes; lo importante es mantener el ritmo. El curso dura 56 días (8 semanas de 7 días) y cada semana vuelve a numerarse de Día 1 a Día 7.
 
 ## 1. El curso de un vistazo
 
@@ -18,16 +20,16 @@ flowchart LR
   S8 --> P["Proyecto final"]
 ```
 
-| Sem. | Fechas | Tema | Lo que construyes | Prueba de que lo lograste |
+| Sem. | Días del curso | Tema | Lo que construyes | Prueba de que lo lograste |
 |---|---|---|---|---|
-| **1** | 16–22 nov | Cimientos + autograd escalar | `micrograd` propio | gradient check < 1e-6 |
-| **2** | 23–29 nov | MLP vectorizado, optimizadores | MLP NumPy con backprop manual → PyTorch | autograd == backprop manual; ≥ 95 % en espirales |
-| **3** | 30 nov–6 dic | Entrenamiento y mapeo | LM de caracteres + informe de diagnóstico | pérdida cerca de la cota de entropía |
-| **4** | 7–13 dic | CNN, residuales, RNN | CNN/ResNet medidas contra MLP | CNN > MLP con menos parámetros |
-| **5** | 14–20 dic | **Transformer** | BPE + atención + **GPT** | val ≈ cota; texto gramatical |
-| **6** | 21–27 dic | VAE y GAN | VAE y GAN con métricas honestas | ELBO derivado; cobertura de modos |
-| **7** | 28 dic–3 ene | Difusión + LLM a escala | DDPM/DDIM (2D e imágenes) | precisión > 95 % en 2D |
-| **8** | 4–10 ene | Adaptación + cierre | LoRA, DPO, RAG + **proyecto final** | proyecto presentado |
+| **1** | Días 1–7 | Cimientos + autograd escalar | `micrograd` propio | gradient check < 1e-6 |
+| **2** | Días 8–14 | MLP vectorizado, optimizadores | MLP NumPy con backprop manual → PyTorch | autograd == backprop manual; ≥ 95 % en espirales |
+| **3** | Días 15–21 | Entrenamiento y mapeo | LM de caracteres + informe de diagnóstico | pérdida cerca de la cota de entropía |
+| **4** | Días 22–28 | CNN, residuales, RNN | CNN/ResNet medidas contra MLP | CNN > MLP con menos parámetros |
+| **5** | Días 29–35 | **Transformer** | BPE + atención + **GPT** | val ≈ cota; texto gramatical |
+| **6** | Días 36–42 | VAE y GAN | VAE y GAN con métricas honestas | ELBO derivado; cobertura de modos |
+| **7** | Días 43–49 | Difusión + LLM a escala | DDPM/DDIM (2D e imágenes) | precisión > 95 % en 2D |
+| **8** | Días 50–56 | Adaptación + cierre | LoRA, DPO, RAG + **proyecto final** | proyecto presentado |
 
 **Carga:** ≈ 12 h/semana (semana 5 y 8: ≈ 14 h) → ≈ **100 h** en total. Si sumas lo opcional (Karpathy *reproduce GPT-2*, CS336), ≈ 130 h.
 
@@ -35,22 +37,22 @@ flowchart LR
 
 | Día | Horas | Bloque | Lógica |
 |---|---|---|---|
-| Lun | 1,5–2 | **Entender:** video/lectura principal | intuición primero |
-| Mar | 1,5–2 | **Derivar:** matemática en papel | lo escrito a mano se recuerda |
-| Mié | 1,5–2 | **Construir:** código desde cero, sin mirar la solución | el aprendizaje real ocurre aquí |
-| Jue | 1,5–2 | **Experimentar:** correr scripts, cambiar hiperparámetros, romper cosas | desarrolla criterio |
-| Vie | 1,5–2 | **Leer:** paper/blog de la semana + notas | acostumbra al lenguaje de la frontera |
-| Sáb | 3–4 | **Proyecto semanal** | integra y consolida |
-| Dom | 1 | **Repaso + autoevaluación + planificar** | repaso espaciado |
+| Día 1 | 1,5–2 | **Entender:** video/lectura principal | intuición primero |
+| Día 2 | 1,5–2 | **Derivar:** matemática en papel | lo escrito a mano se recuerda |
+| Día 3 | 1,5–2 | **Construir:** código desde cero, sin mirar la solución | el aprendizaje real ocurre aquí |
+| Día 4 | 1,5–2 | **Experimentar:** correr scripts, cambiar hiperparámetros, romper cosas | desarrolla criterio |
+| Día 5 | 1,5–2 | **Leer:** paper/blog de la semana + notas | acostumbra al lenguaje de la frontera |
+| Día 6 | 3–4 | **Proyecto semanal** | integra y consolida |
+| Día 7 | 1 | **Repaso + autoevaluación + planificar** | repaso espaciado |
 
 ### Plan B (≈ 8 h/semana): qué recortar
-Úsalo en semanas de exámenes, trabajo o fiestas (S6 y S7 caen en Navidad/Año Nuevo).
+Úsalo en semanas de exámenes, trabajo, viajes o fiestas.
 
 | Mantén (núcleo irrenunciable) | Recorta |
 |---|---|
-| El **código desde cero** del día Mié y el script principal de la semana | La lectura de papers (haz solo el abstract + figuras) |
-| Derivación en papel (Mar) | Ejercicios “Reto” y la mitad de los “Intermedios” |
-| Autoevaluación del domingo | Videos largos: ve solo los capítulos indicados en negrita |
+| El **código desde cero** del Día 3 y el script principal de la semana | La lectura de papers (haz solo el abstract + figuras) |
+| Derivación en papel (Día 2) | Ejercicios “Reto” y la mitad de los “Intermedios” |
+| Autoevaluación del Día 7 | Videos largos: ve solo los capítulos indicados en negrita |
 
 Si aun así te atrasas: **no acumules**. Salta lo opcional pero nunca la Semana 1–2 (cimientos) ni la 5 (Transformer): todo lo demás depende de ellas.
 
@@ -137,7 +139,7 @@ Puntúa 0 = no puedo · 1 = con ayuda · 2 = solo, con apuntes · 3 = solo y pue
 | Perfeccionismo | Entregable mínimo funcional primero; mejora después |
 | Frustración con un bug de *shapes* | `print(x.shape)` en cada línea; hooks de `shape_tracking.py`; sobreajustar un batch |
 | Comparar modelos con una sola corrida | ≥ 3 semillas; reporta dispersión |
-| Agotamiento | Un domingo de descanso real cada dos semanas; el Plan B existe para usarse |
+| Agotamiento | Un día de descanso real cada dos semanas; el Plan B existe para usarse |
 
 ## 8. Después de las 8 semanas (próximos 3 meses)
 

@@ -1,6 +1,6 @@
 # Semana 8 · Adaptación, alineamiento, interpretabilidad y producción
 
-> **4 – 10 ene 2027** · ~14 h · Módulo VII de la hoja de ruta (Paso 5) + **cierre del proyecto final**
+> **Días 50 – 56** · ~14 h · Módulo VII de la hoja de ruta (Paso 5) + **cierre del proyecto final**
 > **Entregable:** tu proyecto integrador terminado, documentado y presentado (ver [`proyecto/proyecto-final.md`](../proyecto/proyecto-final.md)), usando al menos una técnica de esta semana (LoRA, DPO, RAG o interpretabilidad).
 
 ## 1. Objetivos
@@ -16,13 +16,13 @@
 
 | Día | Tiempo | Qué hacer |
 |---|---|---|
-| **Lun** | 2 h | **SFT y LoRA/QLoRA:** Raschka *Build an LLM from Scratch* (caps. de *fine-tuning*) y/o *Hugging Face LLM Course*. Lee el paper LoRA (§1–4). |
-| **Mar** | 2 h | `lora.py`: lee `LoRALinear`; reprográmalo sin mirar; verifica congelación y fusión. |
-| **Mié** | 2,5 h | **Alineamiento:** deriva DPO (§3.3). Ejecuta `dpo.py` (DPO puro vs DPO + SFT) y explica **por qué** falla el puro. |
-| **Jue** | 2,5 h | **RAG + agentes:** `rag_minimo.py`; construye un RAG sobre **tus propios documentos** y mide hit@1/hit@3. Esboza un bucle de *tool calling* (§3.5). |
-| **Vie** | 2 h | **Interpretabilidad:** *Transformer Circuits Thread* (“A Mathematical Framework…”), BertViz sobre un modelo de HF, *logit lens* sobre tu GPT. |
-| **Sáb** | 4 h | **Proyecto final:** integración, evaluación, README y demo. |
-| **Dom** | 2 h | **Presentación final** (usa el material de [`presentacion/`](../presentacion)), autoevaluación del curso, plan de los próximos 3 meses. |
+| **Día 1** | 2 h | **SFT y LoRA/QLoRA:** Raschka *Build an LLM from Scratch* (caps. de *fine-tuning*) y/o *Hugging Face LLM Course*. Lee el paper LoRA (§1–4). |
+| **Día 2** | 2 h | `lora.py`: lee `LoRALinear`; reprográmalo sin mirar; verifica congelación y fusión. |
+| **Día 3** | 2,5 h | **Alineamiento:** deriva DPO (§3.3). Ejecuta `dpo.py` (DPO puro vs DPO + SFT) y explica **por qué** falla el puro. |
+| **Día 4** | 2,5 h | **RAG + agentes:** `rag_minimo.py`; construye un RAG sobre **tus propios documentos** y mide hit@1/hit@3. Esboza un bucle de *tool calling* (§3.5). |
+| **Día 5** | 2 h | **Interpretabilidad:** *Transformer Circuits Thread* (“A Mathematical Framework…”), BertViz sobre un modelo de HF, *logit lens* sobre tu GPT. |
+| **Día 6** | 4 h | **Proyecto final:** integración, evaluación, README y demo. |
+| **Día 7** | 2 h | **Presentación final** (usa el material de [`presentacion/`](../presentacion)), autoevaluación del curso, plan de los próximos 3 meses. |
 
 ## 3. Teoría esencial
 

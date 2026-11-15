@@ -1,6 +1,6 @@
 # Semana 3 · Ingeniería de entrenamiento y mapeo de redes
 
-> **30 nov – 6 dic 2026** · ~12 h · Módulo III de la hoja de ruta
+> **Días 15 – 21** · ~12 h · Módulo III de la hoja de ruta
 > **Entregable:** un modelo de lenguaje a nivel de carácter (MLP) que alcanza la **cota teórica de entropía** de un corpus, más un “informe de diagnóstico” con las herramientas de mapeo de la sección 3.
 
 ## 1. Objetivos
@@ -15,13 +15,13 @@
 
 | Día | Tiempo | Qué hacer |
 |---|---|---|
-| **Lun** | 2 h | Karpathy – *makemore, parte 3* (activaciones, gradientes y BatchNorm). Ejecuta `laboratorio_init_activaciones.py` y **predice** cada tabla antes de verla. |
-| **Mar** | 1,5 h | Lee *A Recipe for Training Neural Networks* (Karpathy). Ejecuta `diagnostico_entrenamiento.py` y relaciona cada chequeo con un paso de la receta. |
-| **Mié** | 1,5 h | `normalizaciones.py`: implementa BatchNorm/LayerNorm/RMSNorm desde cero y verifica contra `torch.nn`. Dibuja **sobre qué ejes** normaliza cada una. |
-| **Jue** | 2 h | Karpathy – *makemore, parte 4* (backprop manual “ninja”) — al menos la primera mitad. Mapa de dimensiones del MLP de Bengio. |
-| **Vie** | 1,5 h | **Mapeo:** `shape_tracking.py`, `torchinfo.summary`, `torchviz`, abre un modelo exportado a ONNX en **Netron** (sección 3). |
-| **Sáb** | 3–4 h | **Proyecto:** `makemore_mlp.py` → cámbialo para (a) usar tu propio texto (nombres, frases de tu área), (b) añadir `RMSNorm`, (c) graficar pérdida vs. cota. |
-| **Dom** | 1 h | Autoevaluación + resumen de la semana. |
+| **Día 1** | 2 h | Karpathy – *makemore, parte 3* (activaciones, gradientes y BatchNorm). Ejecuta `laboratorio_init_activaciones.py` y **predice** cada tabla antes de verla. |
+| **Día 2** | 1,5 h | Lee *A Recipe for Training Neural Networks* (Karpathy). Ejecuta `diagnostico_entrenamiento.py` y relaciona cada chequeo con un paso de la receta. |
+| **Día 3** | 1,5 h | `normalizaciones.py`: implementa BatchNorm/LayerNorm/RMSNorm desde cero y verifica contra `torch.nn`. Dibuja **sobre qué ejes** normaliza cada una. |
+| **Día 4** | 2 h | Karpathy – *makemore, parte 4* (backprop manual “ninja”) — al menos la primera mitad. Mapa de dimensiones del MLP de Bengio. |
+| **Día 5** | 1,5 h | **Mapeo:** `shape_tracking.py`, `torchinfo.summary`, `torchviz`, abre un modelo exportado a ONNX en **Netron** (sección 3). |
+| **Día 6** | 3–4 h | **Proyecto:** `makemore_mlp.py` → cámbialo para (a) usar tu propio texto (nombres, frases de tu área), (b) añadir `RMSNorm`, (c) graficar pérdida vs. cota. |
+| **Día 7** | 1 h | Autoevaluación + resumen de la semana. |
 
 ## 3. Teoría esencial
 

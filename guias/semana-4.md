@@ -1,6 +1,6 @@
 # Semana 4 · Arquitecturas estructurales: CNN, residuales y recurrentes
 
-> **7 – 13 dic 2026** · ~12 h · Módulo IV de la hoja de ruta (Paso 3)
+> **Días 22 – 28** · ~12 h · Módulo IV de la hoja de ruta (Paso 3)
 > **Entregable:** una CNN y una red residual propias, entrenadas sobre imágenes, con una comparación **medida** contra un MLP, y un informe de por qué los residuales permiten entrenar redes profundas.
 
 ## 1. Objetivos
@@ -15,13 +15,13 @@
 
 | Día | Tiempo | Qué hacer |
 |---|---|---|
-| **Lun** | 2 h | **CS231n** (notas *Convolutional Networks*): convolución, *stride*, *padding*, *pooling*, cálculo de dimensiones. Resuelve 6 ejercicios de *shapes* a mano (sección 3.1). |
-| **Mar** | 1,5 h | Ejecuta `cnn_vs_mlp.py`. Implementa una **convolución 2D ingenua con bucles** en NumPy y compárala con `F.conv2d` (error < 1e-5). |
-| **Mié** | 1,5 h | **ResNet:** lee el paper (He et al., 2015) solo secciones 1–3. Ejecuta `residuales_gradientes.py` y explica la tabla. |
-| **Jue** | 1,5 h | **RNN/LSTM/GRU:** *Understanding LSTM Networks* (Chris Olah) + CS224n (clase de RNN). Escribe las ecuaciones de la LSTM de memoria. |
-| **Vie** | 1,5 h | Ejecuta `rnn_lstm_gru.py` con T=10, 20, 30, 40. Anota qué pasa; luego lee sobre BPTT y *gradient clipping*. |
-| **Sáb** | 3–4 h | **Proyecto:** CNN con bloques residuales sobre **FashionMNIST/MNIST** (`torchvision`) o sobre tus propias imágenes; meta ≥ 90 % en test y curvas de pérdida. |
-| **Dom** | 1 h | Autoevaluación + puente a Transformers: lee 3Blue1Brown cap. 5 (*But what is a GPT?*). |
+| **Día 1** | 2 h | **CS231n** (notas *Convolutional Networks*): convolución, *stride*, *padding*, *pooling*, cálculo de dimensiones. Resuelve 6 ejercicios de *shapes* a mano (sección 3.1). |
+| **Día 2** | 1,5 h | Ejecuta `cnn_vs_mlp.py`. Implementa una **convolución 2D ingenua con bucles** en NumPy y compárala con `F.conv2d` (error < 1e-5). |
+| **Día 3** | 1,5 h | **ResNet:** lee el paper (He et al., 2015) solo secciones 1–3. Ejecuta `residuales_gradientes.py` y explica la tabla. |
+| **Día 4** | 1,5 h | **RNN/LSTM/GRU:** *Understanding LSTM Networks* (Chris Olah) + CS224n (clase de RNN). Escribe las ecuaciones de la LSTM de memoria. |
+| **Día 5** | 1,5 h | Ejecuta `rnn_lstm_gru.py` con T=10, 20, 30, 40. Anota qué pasa; luego lee sobre BPTT y *gradient clipping*. |
+| **Día 6** | 3–4 h | **Proyecto:** CNN con bloques residuales sobre **FashionMNIST/MNIST** (`torchvision`) o sobre tus propias imágenes; meta ≥ 90 % en test y curvas de pérdida. |
+| **Día 7** | 1 h | Autoevaluación + puente a Transformers: lee 3Blue1Brown cap. 5 (*But what is a GPT?*). |
 
 ## 3. Teoría esencial
 

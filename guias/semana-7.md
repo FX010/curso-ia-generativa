@@ -1,6 +1,6 @@
 # Semana 7 · Ecosistema generativo (II): difusión y LLM a escala
 
-> **28 dic 2026 – 3 ene 2027** · ~12 h (semana de Año Nuevo: **Plan B** de 8 h disponible) · Módulo VI de la hoja de ruta (cierre)
+> **Días 43 – 49** · ~12 h (**Plan B** de 8 h disponible) · Módulo VI de la hoja de ruta (cierre)
 > **Entregable:** un modelo de difusión (DDPM + DDIM) propio sobre datos 2D y sobre imágenes, y un documento de “cómo se entrena un LLM de verdad” con cifras.
 
 ## 1. Objetivos
@@ -15,13 +15,13 @@
 
 | Día | Tiempo | Qué hacer |
 |---|---|---|
-| **Lun** | 2 h | Lil’Log *What are Diffusion Models?* + Prince cap. 18. Mira el paper DDPM (Ho et al., 2020) §2–3. |
-| **Mar** | 2 h | **Papel:** deriva $q(x_t\mid x_0)$ (§3.1) y la media posterior (§3.2). Comprueba con los números de `ab` en `ddpm_2d.py`. |
-| **Mié** | 2 h | `ddpm_2d.py`: reprograma el entrenamiento y el muestreo **sin mirar**; compara DDPM (200 pasos) y DDIM (20 pasos). |
-| **Jue** | 2 h | `ddpm_imagenes.py`: lee la mini U-Net (mapa de dimensiones en el docstring); entrena y observa las muestras; cambia el nº de pasos. |
-| **Vie** | 2 h | **LLM a escala:** Karpathy *Let’s reproduce GPT-2 (124M)* (primera mitad) **o** Stanford CS336 (clases de arquitectura, escalado y sistemas). Completa la tabla §3.6. |
-| **Sáb** | 3–4 h | **Proyecto:** (a) *classifier-free guidance* en 2D condicional (ejercicio 6) **o** (b) difusión sobre tus propios datos; **y** avanza el proyecto final. |
-| **Dom** | 1 h | Autoevaluación y planificación de la semana 8 (cierre). |
+| **Día 1** | 2 h | Lil’Log *What are Diffusion Models?* + Prince cap. 18. Mira el paper DDPM (Ho et al., 2020) §2–3. |
+| **Día 2** | 2 h | **Papel:** deriva $q(x_t\mid x_0)$ (§3.1) y la media posterior (§3.2). Comprueba con los números de `ab` en `ddpm_2d.py`. |
+| **Día 3** | 2 h | `ddpm_2d.py`: reprograma el entrenamiento y el muestreo **sin mirar**; compara DDPM (200 pasos) y DDIM (20 pasos). |
+| **Día 4** | 2 h | `ddpm_imagenes.py`: lee la mini U-Net (mapa de dimensiones en el docstring); entrena y observa las muestras; cambia el nº de pasos. |
+| **Día 5** | 2 h | **LLM a escala:** Karpathy *Let’s reproduce GPT-2 (124M)* (primera mitad) **o** Stanford CS336 (clases de arquitectura, escalado y sistemas). Completa la tabla §3.6. |
+| **Día 6** | 3–4 h | **Proyecto:** (a) *classifier-free guidance* en 2D condicional (ejercicio 6) **o** (b) difusión sobre tus propios datos; **y** avanza el proyecto final. |
+| **Día 7** | 1 h | Autoevaluación y planificación de la semana 8 (cierre). |
 
 ## 3. Teoría esencial
 

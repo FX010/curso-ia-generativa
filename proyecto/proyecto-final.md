@@ -1,6 +1,6 @@
 # Proyecto final integrador
 
-> Se desarrolla de forma incremental entre las semanas 5 y 8 y se presenta el **10 de enero de 2027**. Su objetivo es demostrar que **construyes, mides y explicas** un sistema generativo; no que compres cómputo.
+> Se desarrolla de forma incremental entre las semanas 5 y 8 y se presenta el **Día 56**. Su objetivo es demostrar que **construyes, mides y explicas** un sistema generativo; no que compres cómputo.
 
 ## 1. Reglas del proyecto
 
@@ -40,11 +40,11 @@ Modelo de difusión sobre un conjunto pequeño de imágenes (formas, dígitos, s
 
 | Cuándo | Hito | Entregable |
 |---|---|---|
-| Fin S5 (20 dic) | Elegir ruta y definir **pregunta, datos, línea base y métricas** | 1 página (`PLAN.md`) |
-| Fin S6 (27 dic) | Datos listos + línea base trivial funcionando | métrica de la línea base |
-| Fin S7 (3 ene) | **Primer prototipo** del modelo principal entrenando | curvas + primeras muestras |
-| S8 (4–9 ene) | Técnica de la S8, evaluación final con semillas, README, demo | repo completo |
-| 10 ene | **Presentación** (10 min + 5 min de preguntas) | diapositivas + demo |
+| Fin S5 (Día 35) | Elegir ruta y definir **pregunta, datos, línea base y métricas** | 1 página (`PLAN.md`) |
+| Fin S6 (Día 42) | Datos listos + línea base trivial funcionando | métrica de la línea base |
+| Fin S7 (Día 49) | **Primer prototipo** del modelo principal entrenando | curvas + primeras muestras |
+| S8 (Días 50–55) | Técnica de la S8, evaluación final con semillas, README, demo | repo completo |
+| Día 56 | **Presentación** (10 min + 5 min de preguntas) | diapositivas + demo |
 
 ## 4. Rúbrica (100 puntos)
 

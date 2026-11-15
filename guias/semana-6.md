@@ -1,6 +1,6 @@
 # Semana 6 · Ecosistema generativo (I): VAE y GAN
 
-> **21 – 27 dic 2026** · ~12 h (semana de Navidad: usa el **Plan B** de 8 h si lo necesitas, ver [plan maestro](00-plan-maestro.md)) · Módulo VI de la hoja de ruta
+> **Días 36 – 42** · ~12 h (si la semana viene cargada, usa el **Plan B** de 8 h; ver [plan maestro](00-plan-maestro.md)) · Módulo VI de la hoja de ruta
 > **Entregable:** un VAE y una GAN propios, con medición del compromiso reconstrucción/KL y de la cobertura de modos, y una comparación escrita de las cuatro familias generativas.
 
 ## 1. Objetivos
@@ -15,13 +15,13 @@
 
 | Día | Tiempo | Qué hacer |
 |---|---|---|
-| **Lun** | 2 h | Lee Prince cap. 14 (aprendizaje no supervisado) y 17 (VAE); Lil’Log *From Autoencoder to Beta-VAE*. Responde: ¿por qué un autoencoder normal **no** sirve para generar? |
-| **Mar** | 2 h | **Derivación en papel** del ELBO (§3.2) y de la KL cerrada (§3.3). Lee el paper de Kingma & Welling (2014), secciones 2–3. |
-| **Mié** | 2 h | `vae.py`: programa tu VAE sin mirar; barrido de $\beta\in\{0,1,4\}$; mira la figura de muestras. |
-| **Jue** | 2 h | Goodfellow et al. (2014) *Generative Adversarial Nets* + Prince cap. 15; Lil’Log *From GAN to WGAN*. |
-| **Vie** | 2 h | `gan.py`: ejecuta, mide cobertura de modos; cambia lr, batch, ruido y observa. |
-| **Sáb** | 3–4 h | **Proyecto:** (a) VAE condicional o interpolación en el espacio latente de formas; **o** (b) VAE para **detección de anomalías** (error de reconstrucción) sobre datos de proceso. |
-| **Dom** | 1 h | Autoevaluación y tabla comparativa de las 4 familias (§3.6). |
+| **Día 1** | 2 h | Lee Prince cap. 14 (aprendizaje no supervisado) y 17 (VAE); Lil’Log *From Autoencoder to Beta-VAE*. Responde: ¿por qué un autoencoder normal **no** sirve para generar? |
+| **Día 2** | 2 h | **Derivación en papel** del ELBO (§3.2) y de la KL cerrada (§3.3). Lee el paper de Kingma & Welling (2014), secciones 2–3. |
+| **Día 3** | 2 h | `vae.py`: programa tu VAE sin mirar; barrido de $\beta\in\{0,1,4\}$; mira la figura de muestras. |
+| **Día 4** | 2 h | Goodfellow et al. (2014) *Generative Adversarial Nets* + Prince cap. 15; Lil’Log *From GAN to WGAN*. |
+| **Día 5** | 2 h | `gan.py`: ejecuta, mide cobertura de modos; cambia lr, batch, ruido y observa. |
+| **Día 6** | 3–4 h | **Proyecto:** (a) VAE condicional o interpolación en el espacio latente de formas; **o** (b) VAE para **detección de anomalías** (error de reconstrucción) sobre datos de proceso. |
+| **Día 7** | 1 h | Autoevaluación y tabla comparativa de las 4 familias (§3.6). |
 
 ## 3. Teoría esencial
 

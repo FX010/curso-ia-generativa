@@ -1,6 +1,6 @@
 # Semana 5 · La revolución Transformer: tokenización, atención y tu propio GPT
 
-> **14 – 20 dic 2026** · ~14 h (semana central: dedícale más tiempo) · Módulo V de la hoja de ruta
+> **Días 29 – 35** · ~14 h (semana central: dedícale más tiempo) · Módulo V de la hoja de ruta
 > **Entregable:** un GPT *decoder-only* escrito por ti (RMSNorm, RoPE, atención causal, SwiGLU) que alcanza la cota teórica de entropía de un corpus y genera texto, más un tokenizador BPE propio.
 
 ## 1. Objetivos
@@ -16,13 +16,13 @@
 
 | Día | Tiempo | Qué hacer |
 |---|---|---|
-| **Lun** | 2 h | **3Blue1Brown** caps. *But what is a GPT?* y *Attention in transformers, step-by-step*. Lee *The Illustrated Transformer* (Jay Alammar). Dibuja el diagrama de dimensiones (§3.6) **de memoria**. |
-| **Mar** | 2 h | **Tokenización:** Karpathy – *Let's build the GPT Tokenizer* (primera parte) + `bpe.py`. Entrena un BPE sobre un texto tuyo y mide la compresión. |
-| **Mié** | 2 h | **Atención:** `atencion.py`. Implementa `atencion_escalada` sin mirar; compárala con `F.scaled_dot_product_attention` (< 1e-6). Reproduce el experimento de $\sqrt{d_k}$. |
-| **Jue** | 3 h | Karpathy – *Let's build GPT: from scratch, in code, spelled out* (≈2 h). Sigue escribiendo código tú. |
-| **Vie** | 2 h | Lee `gpt.py` línea por línea. Anota el *shape* de cada tensor. Compara con tu versión de ayer. Lee el paper *Attention Is All You Need* (secciones 3.1–3.5). |
-| **Sáb** | 4 h | **Proyecto:** entrena tu GPT (`entrenar_gpt.py`) con (a) el corpus sintético y (b) un texto real tuyo (`--archivo`). Prueba `--pos learned`, `--kv 2`, distintas temperaturas. |
-| **Dom** | 1 h | Autoevaluación + resumen. Mira los resultados de la semana 6–7 para anticipar. |
+| **Día 1** | 2 h | **3Blue1Brown** caps. *But what is a GPT?* y *Attention in transformers, step-by-step*. Lee *The Illustrated Transformer* (Jay Alammar). Dibuja el diagrama de dimensiones (§3.6) **de memoria**. |
+| **Día 2** | 2 h | **Tokenización:** Karpathy – *Let's build the GPT Tokenizer* (primera parte) + `bpe.py`. Entrena un BPE sobre un texto tuyo y mide la compresión. |
+| **Día 3** | 2 h | **Atención:** `atencion.py`. Implementa `atencion_escalada` sin mirar; compárala con `F.scaled_dot_product_attention` (< 1e-6). Reproduce el experimento de $\sqrt{d_k}$. |
+| **Día 4** | 3 h | Karpathy – *Let's build GPT: from scratch, in code, spelled out* (≈2 h). Sigue escribiendo código tú. |
+| **Día 5** | 2 h | Lee `gpt.py` línea por línea. Anota el *shape* de cada tensor. Compara con tu versión de ayer. Lee el paper *Attention Is All You Need* (secciones 3.1–3.5). |
+| **Día 6** | 4 h | **Proyecto:** entrena tu GPT (`entrenar_gpt.py`) con (a) el corpus sintético y (b) un texto real tuyo (`--archivo`). Prueba `--pos learned`, `--kv 2`, distintas temperaturas. |
+| **Día 7** | 1 h | Autoevaluación + resumen. Mira los resultados de la semana 6–7 para anticipar. |
 
 ## 3. Teoría esencial
 

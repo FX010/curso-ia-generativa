@@ -1,6 +1,6 @@
 # Semana 1 · Cimientos: tensores, cálculo y tu primer motor de autograd
 
-> **16 – 22 nov 2026** · ~12 h · Módulo I y II de la hoja de ruta
+> **Días 1 – 7** · ~12 h · Módulo I y II de la hoja de ruta
 > **Entregable:** un motor de diferenciación automática (`micrograd`) escrito por ti, con gradient check y una red que separa dos medias lunas.
 
 ## 1. Objetivos de la semana
@@ -19,13 +19,13 @@ Al terminar podrás:
 
 | Día | Tiempo | Qué hacer | Resultado |
 |---|---|---|---|
-| **Lun** | 1,5 h | Ver **3Blue1Brown – serie *Neural Networks*** (cap. 1–4: qué es una red, descenso de gradiente, intuición y cálculo de backprop). Lee la [portada del curso](../README.md) y el [plan maestro](00-plan-maestro.md). | Cuaderno de notas con 5 ideas clave en tus palabras |
-| **Mar** | 1,5 h | **Álgebra lineal**: *Mathematics for ML* cap. 2 (secciones de matrices y producto) o notas de CS231n. En NumPy: crea tensores de rango 0–4, practica `@`, `.T`, `reshape`, broadcasting. | Hoja de 10 ejercicios de *shapes* resueltos |
-| **Mié** | 1,5 h | **Cálculo**: derivada parcial, gradiente, jacobiana, regla de la cadena. Resuelve a mano el ejemplo de §3.3. | Gradiente de una neurona derivado en papel |
-| **Jue** | 1,5 h | **Karpathy – *micrograd*** (≈2,5 h en total; hoy la primera mitad): derivadas numéricas, grafo, backward manual. | Entiendes `Value` y `_backward` |
-| **Vie** | 1,5 h | Termina micrograd: orden topológico, neuronas, capas, MLP, bucle de entrenamiento. Lee `codigo/semana1_micrograd/engine.py`. | Tu versión corre y entrena |
-| **Sáb** | 3–4 h | **Proyecto de la semana:** reescribe `engine.py` y `nn.py` **sin mirar** (solo con tus notas), pasa `verificar_gradientes.py` y `entrenar_moons.py`. Añade `sigmoid` y `log` por tu cuenta. | Repo propio con tests |
-| **Dom** | 1 h | Autoevaluación (§7), repaso espaciado de la semana, planifica la Semana 2. | Checklist de salida (§8) |
+| **Día 1** | 1,5 h | Ver **3Blue1Brown – serie *Neural Networks*** (cap. 1–4: qué es una red, descenso de gradiente, intuición y cálculo de backprop). Lee la [portada del curso](../README.md) y el [plan maestro](00-plan-maestro.md). | Cuaderno de notas con 5 ideas clave en tus palabras |
+| **Día 2** | 1,5 h | **Álgebra lineal**: *Mathematics for ML* cap. 2 (secciones de matrices y producto) o notas de CS231n. En NumPy: crea tensores de rango 0–4, practica `@`, `.T`, `reshape`, broadcasting. | Hoja de 10 ejercicios de *shapes* resueltos |
+| **Día 3** | 1,5 h | **Cálculo**: derivada parcial, gradiente, jacobiana, regla de la cadena. Resuelve a mano el ejemplo de §3.3. | Gradiente de una neurona derivado en papel |
+| **Día 4** | 1,5 h | **Karpathy – *micrograd*** (≈2,5 h en total; hoy la primera mitad): derivadas numéricas, grafo, backward manual. | Entiendes `Value` y `_backward` |
+| **Día 5** | 1,5 h | Termina micrograd: orden topológico, neuronas, capas, MLP, bucle de entrenamiento. Lee `codigo/semana1_micrograd/engine.py`. | Tu versión corre y entrena |
+| **Día 6** | 3–4 h | **Proyecto de la semana:** reescribe `engine.py` y `nn.py` **sin mirar** (solo con tus notas), pasa `verificar_gradientes.py` y `entrenar_moons.py`. Añade `sigmoid` y `log` por tu cuenta. | Repo propio con tests |
+| **Día 7** | 1 h | Autoevaluación (§7), repaso espaciado de la semana, planifica la Semana 2. | Checklist de salida (§8) |
 
 ## 3. Teoría esencial
 

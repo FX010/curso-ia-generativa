@@ -1,0 +1,42 @@
+name: tests
+on:
+  push:
+  pull_request:
+
+jobs:
+  laboratorio:
+    name: Laboratorio (intérprete y lecciones)
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Cada lección falla con los huecos y pasa con la solución
+        run: node laboratorio/tests/lecciones.js
+      - name: Intérprete contra CPython (4000 expresiones aleatorias)
+        working-directory: laboratorio/tests
+        run: |
+          python fuzz_aritmetica.py
+          node fuzz_aritmetica.js
+
+  codigo:
+    name: Código del curso (PyTorch en CPU)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install numpy matplotlib
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - name: Pruebas rápidas (19 verificaciones)
+        run: python codigo/pruebas_rapidas.py

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="Curso de IA generativa: de cero a GPT, difusión y LoRA">
+  <defs>
+    <radialGradient id="glow" cx="78%" cy="45%" r="55%"><stop offset="0" stop-color="#3256F0" stop-opacity=".35"/><stop offset="1" stop-color="#3256F0" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#7C98FF" stroke-opacity=".07"/></pattern>
+  </defs>
+  <rect width="1280" height="640" fill="#0B1122"/>
+  <rect width="1280" height="640" fill="url(#grid)"/>
+  <rect width="1280" height="640" fill="url(#glow)"/>
+  <!-- red neuronal -->
+  <g stroke="#7C98FF" stroke-opacity=".38" stroke-width="2" fill="none">
+    <path d="M820 190L930 140M820 190L930 260M820 190L930 380M820 320L930 140M820 320L930 260M820 320L930 380M820 450L930 260M820 450L930 380M820 450L930 500"/>
+    <path d="M930 140L1040 200M930 140L1040 320M930 260L1040 200M930 260L1040 320M930 260L1040 440M930 380L1040 320M930 380L1040 440M930 500L1040 440"/>
+    <path d="M1040 200L1150 260M1040 320L1150 260M1040 320L1150 380M1040 440L1150 380"/>
+  </g>
+  <g>
+    <g fill="#FFB649"><circle cx="820" cy="190" r="15"/><circle cx="820" cy="320" r="15"/><circle cx="820" cy="450" r="15"/></g>
+    <g fill="#7C98FF"><circle cx="930" cy="140" r="17"/><circle cx="930" cy="260" r="17"/><circle cx="930" cy="380" r="17"/><circle cx="930" cy="500" r="17"/></g>
+    <g fill="#7C98FF"><circle cx="1040" cy="200" r="17"/><circle cx="1040" cy="320" r="17"/><circle cx="1040" cy="440" r="17"/></g>
+    <g fill="#44D7A5"><circle cx="1150" cy="260" r="15"/><circle cx="1150" cy="380" r="15"/></g>
+  </g>
+  <text x="80" y="150" font-family="Space Grotesk, Inter, DejaVu Sans, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="4" fill="#FFB649">CURSO · 8 SEMANAS · EN ESPAÑOL</text>
+  <text x="80" y="250" font-family="Space Grotesk, Inter, DejaVu Sans, Arial, sans-serif" font-size="84" font-weight="700" fill="#E7ECFB">Curso de</text>
+  <text x="80" y="342" font-family="Space Grotesk, Inter, DejaVu Sans, Arial, sans-serif" font-size="84" font-weight="700" fill="#7C98FF">IA generativa</text>
+  <text x="80" y="410" font-family="Inter, DejaVu Sans, Arial, sans-serif" font-size="28" fill="#9AA6CB">De cero a GPT, VAE, GAN, difusión, LoRA y DPO.</text>
+  <text x="80" y="452" font-family="Inter, DejaVu Sans, Arial, sans-serif" font-size="28" fill="#9AA6CB">Código verificado, guías y laboratorio interactivo.</text>
+  <g font-family="Inter, DejaVu Sans, Arial, sans-serif" font-size="20" font-weight="600">
+    <rect x="80" y="500" width="150" height="44" rx="22" fill="#1F2C5E"/><text x="155" y="529" text-anchor="middle" fill="#E7ECFB">PyTorch</text>
+    <rect x="246" y="500" width="170" height="44" rx="22" fill="#1F2C5E"/><text x="331" y="529" text-anchor="middle" fill="#E7ECFB">Transformers</text>
+    <rect x="432" y="500" width="150" height="44" rx="22" fill="#1F2C5E"/><text x="507" y="529" text-anchor="middle" fill="#E7ECFB">Difusión</text>
+  </g>
+</svg>
